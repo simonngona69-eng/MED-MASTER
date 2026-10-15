@@ -156,10 +156,10 @@
         <label style="display:flex;align-items:center;gap:9px;font-weight:500"><input id="mmPdfPublish" type="checkbox" checked style="width:auto"> Publish for signed-in students after upload</label>
         <div class="admin-row"><button class="btn mint" id="mmPdfUploadButton" type="submit">Upload PDF to selected course</button><span style="font-size:10px;color:var(--muted)">PDF only · up to 20 MB recommended</span></div>
       </form>
-      <div id="mmAdminStatus" class="admin-status" role="status" aria-live="polite">Connect to Supabase, then sign in.</div>
     </div>
     <div class="admin-panel"><div class="admin-row"><div><h3>Published and draft resources</h3><p>Catalogue records already registered in the central library.</p></div><button class="btn secondary" id="mmRefreshResources">Refresh list</button></div><div id="mmAdminResourceList" class="admin-resources"><div class="empty">No resources loaded yet.</div></div></div>
   </div>
+  <div id="mmAdminStatus" class="admin-status" role="status" aria-live="polite">Connect to Supabase, then sign in.</div>
   <div class="note">Security note: the page checks your administrator account, but Supabase Row Level Security and Storage policies are the real access controls. Do not publish a service-role key in this website.</div>
 </section>
 
